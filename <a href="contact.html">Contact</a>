@@ -1,0 +1,45 @@
+<section id="contacts">
+    <h2>Contact Me</h2>
+    <p>If you want to reach out, feel free to email or follow me:</p>
+    <ul>
+        <li>Email: <a href="mailto:example@email.com">example@email.com</a></li>
+        <li>GitHub: <a href="https://github.com/yourusername" target="_blank">yourusername</a></li>
+        <li>Twitter: <a href="https://twitter.com/yourusername" target="_blank">@yourusername</a></li>
+    </ul>
+</section>#contacts {
+    text-align: center;
+    margin: 3rem auto;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    max-width: 600px;
+}
+
+#contacts h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+#contacts p {
+    margin-bottom: 1rem;
+    opacity: 0.8;
+}
+
+#contacts ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contacts li {
+    margin: 0.5rem 0;
+}
+
+#contacts a {
+    color: #4b6cb7;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#contacts a:hover {
+    color: #182848;
+}
